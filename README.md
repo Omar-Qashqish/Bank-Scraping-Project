@@ -58,7 +58,3 @@ Please read the file **`A--document`** before browsing the scripts.
 
 - This project is still under active development.
 - Additional improvements, code optimizations, and new scraping features will be added progressively.
-
----
-
-> Feel free to explore, modify, and use the scripts for educational, professional, or data integration purposes!
