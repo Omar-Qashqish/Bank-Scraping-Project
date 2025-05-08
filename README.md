@@ -1,6 +1,15 @@
 # Bank Scraping Project
 
-This project contains Python scripts designed to scrape promotional content, articles, and banners from various Jordanian and regional banks' official websites.
+This project contains Python scripts designed to scrape comprehensive data from various Jordanian banks' official websites, including:
+
+- Promotional banners
+- News articles
+- Images and their download
+- Article links
+- Bank names
+- (For some banks) Full article titles and complete article content
+
+---
 
 ## 📂 Contents
 The folder includes scraping scripts for the following banks:
@@ -25,28 +34,31 @@ The folder includes scraping scripts for the following banks:
 - Jordan Kuwait Bank
 - Safwa Bank
 
+---
+
 ## 🔍 Purpose
-Each script extracts information such as:
-- Promotional banners
-- News articles
-- Image links
-- Direct article URLs
-- Titles and descriptions
 
-The scraped data is structured into DataFrames and can be saved into databases or local directories for further analysis.
+Each script performs one or more of the following tasks:
 
-## 🛠️ Technologies Used
-- Python
-- BeautifulSoup (bs4)
-- Requests
-- Pandas
-- SQL Server Integration (optional)
-
-## 🚀 Future Work
-- Expand to include additional financial institutions.
-- Enhance data cleaning and standardization.
-- Automate scraping schedules via Airflow or CRON jobs.
+- Scrape promotional banners and news articles from bank websites.
+- Download images and save them into organized local folders.
+- Extract image links, article links, and bank names.
+- Some scripts also extract the article title and the full article content.
+- Organize the scraped data into structured DataFrames ready for storage or further analysis.
 
 ---
 
-Feel free to explore, modify, and use the scripts for educational or practical purposes.
+## 📄 Important Note
+
+Please read the file **`A--document`** before browsing the scripts.  
+
+---
+
+## ⚡ Current Status
+
+- This project is still under active development.
+- Additional improvements, code optimizations, and new scraping features will be added progressively.
+
+---
+
+> Feel free to explore, modify, and use the scripts for educational, professional, or data integration purposes!
